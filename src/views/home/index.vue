@@ -36,6 +36,7 @@
           </div>
     <div class="content">
      <big-content></big-content>
+     <!--<statistic-detail></statistic-detail>-->
     </div>
     <!--个人信息弹框-->
     <el-dialog
@@ -217,10 +218,12 @@
 
 <script>
   import bigContent from '../../../../mall-admin-web-master/src/components/bigScreem/bigContent';
+  import StatisticDetail from '../../../../mall-admin-web-master/src/components/statisticdetail/StatisticDetail';
 
   export default {
     components:{
-      bigContent
+      bigContent,
+      StatisticDetail
     },
     name: 'home',
     data() {

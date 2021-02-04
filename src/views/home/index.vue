@@ -35,8 +35,8 @@
             </div>
           </div>
     <div class="content">
-     <big-content></big-content>
-     <!--<statistic-detail></statistic-detail>-->
+     <!--<big-content></big-content>-->
+     <statistic-detail></statistic-detail>
     </div>
     <!--个人信息弹框-->
     <el-dialog

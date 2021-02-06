@@ -34,7 +34,7 @@
               <div class="moreInfor" @click="lookGroupAndPerson">mor infor</div>
             </div>
           </div>
-    <div class="content">
+    <div :class="classContent">
      <!--<big-content></big-content>-->
      <statistic-detail></statistic-detail>
     </div>
@@ -229,7 +229,8 @@
     data() {
       return {
         myInforFlag:false,
-
+        classContent:'statisticDetail',
+        /*classContent:'content',*/
         taskFlag:false,
         myInfor:{
           userName:"张三",
@@ -494,6 +495,11 @@
   }
   .content{
     height:calc(105vh);
+    width:99%;
+    margin:0px auto;
+  }
+  .statisticDetail{
+    height:calc(70vh);
     width:99%;
     margin:0px auto;
   }

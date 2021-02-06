@@ -368,7 +368,7 @@ export const asyncRouterMap = [
       {
         path: 'sms8',
         name: 'sms8',
-        component: () => import('@/views/home/index'),
+        component: () => import('@/views/tableDemo/index'),
         meta: {title: '讨论数统计', icon: 'product-list'}
       }, {
         path: 'sms9',
